@@ -1,0 +1,60 @@
+#kontainer {
+  margin: 5px auto 0px;
+  width: 1000px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#banner {
+  width: 1000px;
+  height: 150px;
+  padding: 5px;
+  background-color: #ff9;
+  box-shadow: 5px 5px 10px 5px #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#jam {
+  float: left;
+  width: 180px;
+  height: 150px;
+  border-right: solid #ccc;
+}
+
+#logo {
+  padding: 5px;
+  float: left;
+  width: 600px;
+  height: 150px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#badan {
+  padding: 5px;
+  background-color: #ccc;
+  box-shadow: 5px 5px 10px 5px #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#judul {
+  padding: 5px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+#isi {
+  padding: 5px;
+  font-weight: bold;
+}
+
+#ticker {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #0080ff;
+  height: 25px;
+  color: #fff;
+  overflow: hidden;
+}
