@@ -31,14 +31,38 @@
             theme_advanced_link_targets: "_something=My somthing; 
             _something2=My somthing2; _something3=My somthing3; ",
             apply_source_formatting : true});
-            
-            
-            
-            
-            
 
+        function fileBrowserCallBack(field_name, url, type, win) {
+            var connector = "../../filemanager/browser.html?Connector=connectors/php/connector.php";
+            var enableAutoTypeSelection = true;
+            var cType;
+            tinymcpuk_field = field_name;
+            tinymcpuk = win;
 
-        ))
+            switch (type) {
+                case "image":
+                    cType = "Image";
+                    break;
+                case "flash":
+                    cType = "Flash";
+                    break;
+                case "file":
+                    cType = "File";
+                    break;
+            }
+
+            if (enableAutoTypeSelection && cType) {
+                connector += "&Type=" + cType;
+            }
+            window.open(connector, "tinymcpuk", "modal, width=400, height=400");
+        }
+
+        function addMCE() {
+            tinyMCE.execCommand('mceAddControl', true, 'isi');
+        }
+
+        //delay untuk mencegah error, karena koneksi lambat
+        setTimeout('addMCE()', 4000);
     </script>
 </head>
 
