@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#kontainer{
+	width:1000px;
+	margin:0 auto 5px;
+	box-shadow: 10px 10px 5px #888;
+}
+
+#banner{
+	width:1000px;
+	height:150px;
+	background-image:url(banner.jpg);
+}
+
+#menu{
+	width:1000px;
+	height:35px;
+	background-color:#FF8F20;
+}
+
+#ikon img {
+	height: 132px;
+	width:  150px;
+	border:none;
+}
+
+#ikon {
+	float: left;
+	height: 155px;
+	width:  160px;
+	margin-left: 10px;
+	margin-right: 2px;
+	margin-bottom: 12px;
+	background-color:#FFF;
+	border : 3px solid #0DA2FB;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+	text-align:center;
+
+}
+
+#namaikon {
+	float: left;
+	height: 20px;
+	width:  160px;
+	background-color:#0DA2FB;
+	color:#FFF;
+	font-weight:bold;
+}
+
+#badan{
+	width: 990px;
+	padding:5px;	
+	min-height:200px;
+}
+
+#footer{
+	height: 20px;
+	width:  990px;
+	padding:5px;
+	background-color:#0DA2FB;
+	color:#FFF;
+	font-weight:bold;
+}
